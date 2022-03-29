@@ -13,6 +13,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
   },
   parserOptions: {
-    ecmaVersion: 11 /* dynamic import 지원 */,
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
 };

@@ -1,4 +1,4 @@
-import "./App.css";
+import React from 'react';
 
 function App() {
   return <div>초기화면</div>;
